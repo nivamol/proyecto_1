@@ -30,8 +30,14 @@ div.menu a {
     color: black;
 }
 
-h1 {
+div.item-1 h1 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
 
+div.item-1 h1 span {
+    padding-left: 25%;
 }
 
 p {
