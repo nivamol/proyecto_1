@@ -1,7 +1,11 @@
 /*contenedor*/
 
 div.contenedor {
-
+    display: grid;
+    grid-template: 100vh / repeat(2, 1fr);
+    grid-template-areas: 
+        "item-1 ."
+        "item-2 .";
 }
 
 /*item-1*/
@@ -67,7 +71,7 @@ footer {
 }
 
 footer p {
-    
+
 }
 
 
