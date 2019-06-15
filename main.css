@@ -41,7 +41,11 @@ div.item-1 h1 span {
 }
 
 p {
-
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 0.175em; 
 }
 
 /*social-bar */
