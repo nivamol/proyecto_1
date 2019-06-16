@@ -89,11 +89,22 @@ div.item-2 {
 }
 
 div.boton {
-
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
 }
 
 div.boton button {
+    margin-bottom: 6rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
 
+div.boton button:hover {
+    background-color: #49FCD3;
+    transition-duration: 1s;
 }
 
 /*footer*/
