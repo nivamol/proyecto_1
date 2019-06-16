@@ -65,14 +65,19 @@ div.social-bar a {
 /*flecha navegacion*/
 
 div.flecha-navegacion {
-
+    position: absolute;
+    right: 62%;
+    top: 83%;
 }
 
 div.flecha-navegacion a {
     text-decoration: none;
     color: black;
     font-size: 3rem;
+}
 
+div.flecha-navegacion a span {
+    font-weight: bold;
 }
 
 /*item-2*/
