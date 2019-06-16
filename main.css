@@ -83,6 +83,8 @@ div.flecha-navegacion a span {
 /*item-2*/
 
 div.item-2 {
+    background-image: url(images/casa.png); 
+    background-size: cover;
 
 }
 
