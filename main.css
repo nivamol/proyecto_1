@@ -1,49 +1,83 @@
 /*contenedor*/
 
 div.contenedor {
-
+    display: grid;
+    grid-template: 100vh / repeat(2, 1fr);
+    grid-template-areas: 
+        "item-1 ."
+        "item-2 .";
 }
 
 /*item-1*/
 
 div.item-1 {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 div.menu {
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 2.2em;
 }
 
 div.menu a {
-
+    text-decoration: none;
+    color: black;
 }
 
-h1 {
+div.item-1 h1 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
 
+div.item-1 h1 span {
+    padding-left: 25%;
 }
 
 p {
-
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 0.175em; 
 }
 
 /*social-bar */
 
 div.social-bar {
-
+    margin-top: 3em;
 }
 
 div.social-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 0 .3em;
 
 }
 
 /*flecha navegacion*/
 
 div.flecha-navegacion {
-
+    position: absolute;
+    right: 62%;
+    top: 83%;
 }
 
 div.flecha-navegacion a {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
 
+div.flecha-navegacion a span {
+    font-weight: bold;
 }
 
 /*item-2*/
@@ -67,7 +101,6 @@ footer {
 }
 
 footer p {
-    
 }
 
 
