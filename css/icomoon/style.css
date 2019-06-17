@@ -137,6 +137,7 @@
 }
 .icon-mail4:before {
   content: "\ea86";
+  color: #0266D6;
 }
 .icon-amazon:before {
   content: "\ea87";
@@ -152,6 +153,7 @@
 }
 .icon-instagram:before {
   content: "\ea92";
+  color: #D02171;
 }
 .icon-whatsapp:before {
   content: "\ea93";
